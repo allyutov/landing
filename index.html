@@ -2,9 +2,407 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="header-content-desktop">
+                <nav class="header-nav">
+                    <li class="header-nav__link">Home</li>
+                    <li class="header-nav__link">Product</li>
+                    <li class="header-nav__link">Pricing</li>
+                    <li class="header-nav__link">About</li>
+                    <li class="header-nav__link">Contact</li>
+                </nav>
+                <img src="images/logo.svg" width="186" alt="">
+            </div>
+            <ul class="header-network">
+                <li class="header-network__item">
+                    <a href="" class="header-network__link">
+                        <img src="images/twitter-w.svg" width="34" alt="">
+                    </a>
+                </li>
+                <li class="header-network__item">
+                    <a href="" class="header-network__link">
+                        <img src="images/fb-w.svg" alt="">
+                    </a>
+                </li>
+                <li class="header-network__item">
+                    <a href="" class="header-network__link">
+                        <img src="images/in-w.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <div class="header-burger">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="start">
+    <div class="start-content">
+        <h1 class="start-title">The best products start with Figma</h1>
+        <p class="start-description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <a href="" class="free-link">Try For Free</a>
+    </div>
+</section>
+<section class="features">
+    <div class="features-content">
+        <p class="features-title">Features</p>
+        <p class="features-description">Most calendars are designed for teams.</p>
+        <div class="features-info">
+            <div class="features-info-video">
+                <img src="images/video.png" alt="">
+            </div>
+            <ul class="features-info-list">
+                <li class="features-info-list-item">
+                    <img src="images/feature-item-1.svg" width="46" alt="">
+                    <p class="features-info-list-item__title">OpenType features Variable fonts</p>
+                    <p class="features-info-list-item__description">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.
+                    </p>
+                </li>
+                <li class="features-info-list-item">
+                    <img src="images/feature-item-2.svg" width="46" alt="">
+                    <p class="features-info-list-item__title">Design with real data</p>
+                    <p class="features-info-list-item__description">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.
+                    </p>
+                </li>
+                <li class="features-info-list-item">
+                    <img src="images/feature-item-3.svg" width="49" alt="">
+                    <p class="features-info-list-item__title">Fastest way to take action</p>
+                    <p class="features-info-list-item__description">
+                        Slate helps you see how
+                        many more days you need
+                        to work to reach your
+                        financial goal.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="fastest">
+    <div class="fastest-content">
+        <div class="fastest-info">
+            <p class="fastest-info__title">Fastest way to organize</p>
+            <p class="fastest-info__description">Most calendars are designed for teams.</p>
+            <a href="" class="free-link">Try For Free</a>
+        </div>
+        <div class="fastest-image">
+            <picture>
+                <source media="(max-width: 1279px)" srcset="images/macbook.png" sizes="380px">
+                <source media="(min-width: 1280px)" srcset="images/macbook-desktop.png" sizes="625px">
+            </picture>
+        </div>
+    </div>
+</section>
+<section class="newsletter">
+    <div class="newsletter-content">
+        <div class="newsletter-info">
+            <div class="newsletter-subscribe-header--mobile">
+                <p class="newsletter-info__subtext">At your fingertips</p>
+                <p class="newsletter-info__title">Lightning fast prototyping </p>
+                <p class="newsletter-info__description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+        </div>
+        <div class="newsletter-img">
+            <picture>
+                <source media="(max-width: 1279px)" srcset="images/newsletter.png" sizes="380px">
+                <source media="(min-width: 1280px)" srcset="images/newsletter-desktop.png" sizes="677px">
+            </picture>
+        </div>
+        <div class="newsletter-subscribe">
+            <div class="newsletter-subscribe-header--desktop">
+                <p class="newsletter-info__subtext">At your fingertips</p>
+                <p class="newsletter-info__title">Lightning fast prototyping </p>
+                <p class="newsletter-info__description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+            <p class="newsletter-subscribe__text">Subscribe to our Newsletter</p>
+            <p class="newsletter-subscribe__subtext">Available exclusivery on Figmaland</p>
+            <form class="newsletter-subscribe-form" action="">
+                <input placeholder="Your Email" class="newsletter-subscribe-form__input" type="text">
+                <button class="newsletter-subscribe-form__button" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="partners">
+    <div class="partners-content">
+        <p class="partners__title">Partners</p>
+        <p class="partners__description">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <ul class="partners-list">
+            <li class="partners-list__item">
+                <p>Google</p>
+                <img src="images/google.svg" alt="">
+            </li>
+            <li class="partners-list__item">
+                <p>Amazon</p>
+                <img src="images/amazon.png" alt="">
+            </li>
+            <li class="partners-list__item">
+                <p>Microsoft</p>
+                <img src="images/microsoft.png" alt="">
+            </li>
+            <li class="partners-list__item">
+                <p>Uber</p>
+                <img src="images/uber.png" alt="">
+            </li>
+            <li class="partners-list__item">
+                <p>Dropbox</p>
+                <img src="images/dropbox.png" alt="">
+            </li>
+        </ul>
+        <a href="" class="free-link">Try For Free</a>
+    </div>
+</section>
+<section class="testimonials">
+    <div class="testimonials-content">
+        <p class="testimonials__title">Testimonials</p>
+        <div class="testimonials-info">
+            <img src="images/ibm.png" width="128" alt="">
+            <p class="testimonials-info__text">
+                Most calendars are designed for teams.
+                Slate is designed for freelancers who want a
+                simple way to plan their schedule.
+            </p>
+            <div class="testimonials-info-client">
+                <div class="testimonials-info-client__avatar">
+                    <img src="images/client.png" width="44" alt="">
+                </div>
+                <div class="testimonials-info-client__data">
+                    <p class="testimonials-info-client__name">Organize across</p>
+                    <span class="testimonials-info-client__profile">Ui designer</span>
+                </div>
+            </div>
+        </div>
+        <a href="" class="free-link testimonials-link">More Testimonials</a>
+    </div>
+</section>
+<section class="pricing">
+    <div class="pricing-content">
+        <p class="pricing__title">Pricing</p>
+        <p class="pricing__description">Most calendars are designed for teams.</p>
+        <div class="pricing-list">
+            <div class="pricing-list-item">
+                <p class="pricing-list-item__title">FREE</p>
+                <p class="pricing-list-item__description">Organize across all apps by hand</p>
+                <div class="pricing-list-item-condition">
+                    <p class="pricing-list-item-condition__value">0</p>
+                    <div class="pricing-list-item-condition-info">
+                        <p class="pricing-list-item-condition-info__currency">&#36;</p>
+                        <span class="pricing-list-item-condition__period">Per Month</span>
+                    </div>
+                </div>
+                <ul class="pricing-list-item-condition-list">
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                </ul>
+                <a class="pricing-list-item-condition__link free-link" href="">Order Now</a>
+            </div>
+            <div class="pricing-list-item pricing-list-item--actual">
+                <p class="pricing-list-item__title">STANDARD</p>
+                <p class="pricing-list-item__description">Organize across all apps by hand</p>
+                <div class="pricing-list-item-condition">
+                    <p class="pricing-list-item-condition__value">10</p>
+                    <div class="pricing-list-item-condition-info">
+                        <p class="pricing-list-item-condition-info__currency">&#36;</p>
+                        <span class="pricing-list-item-condition__period">Per Month</span>
+                    </div>
+                </div>
+                <ul class="pricing-list-item-condition-list">
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                </ul>
+                <a class="pricing-list-item-condition__link free-link" href="">Order Now</a>
+            </div>
+            <div class="pricing-list-item">
+                <p class="pricing-list-item__title">BUSINESS</p>
+                <p class="pricing-list-item__description">Organize across all apps by hand</p>
+                <div class="pricing-list-item-condition">
+                    <p class="pricing-list-item-condition__value">99</p>
+                    <div class="pricing-list-item-condition-info">
+                        <p class="pricing-list-item-condition-info__currency">&#36;</p>
+                        <span class="pricing-list-item-condition__period">Per Month</span>
+                    </div>
+                </div>
+                <ul class="pricing-list-item-condition-list">
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                    <li class="pricing-list-item-condition-list__item">Pricing Feature</li>
+                </ul>
+                <a class="pricing-list-item-condition__link free-link" href="">Order Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts">
+    <div class="contacts-content">
+        <p class="contacts__title">Contact Us</p>
+        <p class="contacts__description">Most calendars are designed for teams.
+            Slate is designed for freelancers</p>
+        <div class="contacts-content-desktop">
+            <div class="contacts-content-info">
+                <ul class="contacts-networks-list">
+                    <li class="contacts-contacts-networks-list-item">
+                        <a href="" class="contacts-contacts-networks-list-item__link">
+                            <img src="images/twitter.svg" width="34" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts-contacts-networks-list-item">
+                        <a href="" class="contacts-contacts-networks-list-item__link">
+                            <img src="images/fb.svg" width="34" alt="">
+                        </a>
+                    </li>
+                    <li class="contacts-contacts-networks-list-item">
+                        <a href="" class="contacts-contacts-networks-list-item__link">
+                            <img src="images/in.svg" width="33" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <img class="contacts-img" src="images/map.jpg" alt="">
+                <ul class="contacts-info-list">
+                    <li class="contacts-info-list-item">
+                        <img src="images/marker.svg" width="26" alt="">
+                        <p>
+                            6386 Spring St undefined Anchorage,
+                            Georgia 12473 United States
+                        </p>
+                    </li>
+                    <li class="contacts-info-list-item">
+                        <img src="images/phone.svg" width="21" alt="">
+                        <a href="tel:8435550130">
+                            (843) 555-0130
+                        </a>
+                    </li>
+                    <li class="contacts-info-list-item">
+                        <img src="images/mail.svg" width="27" alt="">
+                        <a href="mailto:willie.jennings@example.com">
+                            willie.jennings@example.com
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacts-us">
+                <p class="contacts-us__title">Contact Us</p>
+                <form class="contacts-us-form" action="">
+                    <fieldset>
+                        <input placeholder="Your Name" class="contacts-us-form__input" type="text">
+                        <input placeholder="Your Email" class="contacts-us-form__input" type="text">
+                        <textarea placeholder="Your Message" class="contacts-us-form__textarea"></textarea>
+                    </fieldset>
+                    <button class="contacts-us-form__button" type="button">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <div class="footer-info-content">
+                <p class="footer-info-content__title">Annette Steward</p>
+                <ul class="footer-info-content-list">
+                    <li class="footer-info-content-item">
+                        <a href="">Jennie Cooper</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Julie Henry</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Johnny Murphy</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Gregory Mccoy</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Marvin Mckinney</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-info-content">
+                <p class="footer-info-content__title">Annette Steward</p>
+                <ul class="footer-info-content-list">
+                    <li class="footer-info-content-item">
+                        <a href="">Jennie Cooper</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Julie Henry</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Johnny Murphy</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Gregory Mccoy</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Marvin Mckinney</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-info-content">
+                <p class="footer-info-content__title">Annette Steward</p>
+                <ul class="footer-info-content-list">
+                    <li class="footer-info-content-item">
+                        <a href="">Jennie Cooper</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Julie Henry</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Johnny Murphy</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Gregory Mccoy</a>
+                    </li>
+                    <li class="footer-info-content-item">
+                        <a href="">Marvin Mckinney</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contacts">
+            <ul class="footer-contacts-list">
+                <li class="footer-contacts-list-item">
+                    <img src="images/marker-w.svg" width="46" alt="">
+                    <p>
+                        7480 Mockingbird Hill undefined
+                    </p>
+                </li>
+                <li class="footer-contacts-list-item">
+                    <img src="images/phone-b.svg" width="35" alt="">
+                    <a href="2395550108">
+                        (239) 555-0108
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
